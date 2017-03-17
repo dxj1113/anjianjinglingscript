@@ -12,3 +12,8 @@
 - 【手把手搭建PyCharm/TensorFlow/SSH远程深度学习开发环境】[《Work remotely with PyCharm, TensorFlow and SSH》by Erik Hallström](https://medium.com/@erikhallstrm/work-remotely-with-pycharm-tensorflow-and-ssh-c60564be862d)
 
 
+- 【无需root的Tensorflow安装编译指南】[（从源代码编译Bazel, Swig,Tensorflow）](http://blog.xiangjiang.live/compile-tensorflow-from-source-with-swig-and-bazel-for-local-user/)
+【“从X语言迁移到Y语言”之特征向量分析】[《The eigenvector of "Why we moved from language X to language Y" · Erik Bernhardsson》by Erik Bernhardsson
+](https://erikbern.com/2017/03/15/the-eigenvector-of-why-we-moved-from-language-x-to-language-y.html) [GITHUB](https://github.com/erikbern/eigenstuff)
+【IPN:傻瓜机器学习】[“Brains from Scratch - Machine Learning for dummies” by Achilles Rasquinha ](http://nbviewer.jupyter.org/github/achillesrasquinha/brains-from-scratch/blob/master/Brains%20from%20Scratch%20-%20Machine%20Learning%20for%20dummies.ipynb)
+  [GITHUB](https://github.com/achillesrasquinha/brains-from-scratch)
