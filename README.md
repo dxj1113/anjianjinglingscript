@@ -55,4 +55,56 @@
 
 - [【机器学习算法速查表情符号版】《The Making of a Cheatsheet: Emoji Edition》by Emily Barry ](http://www.emilyinamillion.me/blog/2016/5/30/the-making-of-a-cheatsheet-emoji-edition)
 
-[【π的蒙特卡洛估计】“Monte Carlo Estimation” by Caleb Madrigal ](https://github.com/calebmadrigal/math-with-python/blob/master/MonteCarloEstimation.ipynb)
+
+
+- [【π的蒙特卡洛估计】“Monte Carlo Estimation” by Caleb Madrigal ](https://github.com/calebmadrigal/math-with-python/blob/master/MonteCarloEstimation.ipynb)
+
+
+- [“Intel & MobileODT Cervical Cancer Screening | Kaggle”](https://www.kaggle.com/c/intel-mobileodt-cervical-cancer-screening)
+
+
+
+- [“英特尔 Kaggle 竞赛技术参考 | 英特尔 软件](https://www.kaggle.com/c/intel-mobileodt-cervical-cancer-screening)
+
+
+
+- [【Visdom：Facebook出品的数据可视化工具，支持Torch/Numpy】’Visdom - A flexible tool for creating, organizing, and sharing visualizations of live, rich data. Supports Torch and Numpy.' by Facebook Research GitHub: ](https://github.com/facebookresearch/visdom)
+
+
+- [【Google发布开源JPEG编码器Guetzli】《Announcing Guetzli: A New Open Source JPEG Encoder | Google Research Blog》by Robert Obryk and Jyrki Alakuijala ](https://research.googleblog.com/2017/03/announcing-guetzli-new-open-source-jpeg.html)  [GITHUB](https://github.com/google/guetzli/)
+
+
+
+- [【StackNet：(Java)可计算、可扩展分析元建模框架】’StackNet - a computational, scalable and analytical Meta modelling framework' by Marios Michailidis GitHub: ](https://github.com/kaz-Anova/StackNet)
+
+
+
+- [【对抗生成网络(GAN)及一些开放问题】《Generative Adversarial Networks (GANs), Some Open Questions | Off the convex path》by Sanjeev Arora](http://www.offconvex.org/2017/03/15/GANs/)
+
+
+
+- [【OpenAI：智能体自主通信学习】《Learning to communicate》by Igor Mordatch, Pieter Abbeel, Ryan Lowe, Jon Gauthier, Jack Clark ](https://openai.com/blog/learning-to-communicate/)
+
+
+
+- [【NVIDIA与博世发布自驾车AI计算平台】《NVIDIA and Bosch Announce AI Self-Driving Car Computer | NVIDIA Blog》](https://blogs.nvidia.com/blog/2017/03/16/bosch/)
+
+
+
+- [《Viraliency: Pooling Local Virality》X Alameda-Pineda, A Pilzer, D Xu, N Sebe, E Ricci [University of Trento & University of Perugia] (2017) ](https://arxiv.org/abs/1703.03937)
+
+
+
+- [《Emergence of Grounded Compositional Language in Multi-Agent Populations》I Mordatch, P Abbeel [OpenAI & UC Berkeley] (2017) ](https://arxiv.org/abs/1703.04908)
+
+
+
+- [《Neural Programming by Example》C Shu, H Zhang [Beihang University & The University of Newcastle] (2017) ](https://arxiv.org/abs/1703.04990)
+
+
+
+- [《Convergence of Deep Neural Networks to a Hierarchical Covariance Matrix Decomposition》N Dehmamy, N Rohani, A Katsaggelos [Northeastern University] (2017) ](https://arxiv.org/abs/1703.04757)
+
+
+
+- [《Understanding Black-box Predictions via Influence Functions》P W Koh, P Liang [Stanford University] (2017) ](https://arxiv.org/abs/1703.04730)
