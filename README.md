@@ -1,4 +1,14 @@
+- [《谷歌微软等科技巨头数据科学面试107道真题：你能答出多少？》](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650724442&idx=1&sn=d321d5195770982762cf138ad9fc68a4)
 
+- [【爬虫高级技巧：应付403、验证码……】《Advanced Web Scraping: Bypassing "403 Forbidden," captchas, and more | sangaline.com》by Evan Sangaline](http://sangaline.com/post/advanced-web-scraping-tutorial/)  [GITHUB](https://github.com/sangaline/advanced-web-scraping-tutorial)
+
+
+- [《deep learning 可以用来做推荐系统吗？ 知乎》](https://www.zhihu.com/question/20830906)
+
+- [【Multi-Agent Reinforcement Learning (MARL)相关论文集】“Paper Collection of Multi-Agent Reinforcement Learning (MARL)” ](https://github.com/LantaoYu/MARL-Papers)
+
+
+- [《一步步从零开始：使用PyCharm和SSH搭建远程TensorFlow开发环境](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650724442&idx=4&sn=02fecb6ad48224b4448a927c4b19fcc6)
 
 - [【深度学习介绍(十)如何做文本摘要】《How to Make a Text Summarizer - Intro to Deep Learning #10 - YouTube》by Siraj Rava](https://www.youtube.com/watch?v=ogrJaOIuBx4)   [GITHUB](https://github.com/llSourcell/How_to_make_a_text_summarizer)
 
@@ -202,3 +212,71 @@
 
 
 - [《Understanding Black-box Predictions via Influence Functions》P W Koh, P Liang [Stanford University] (2017) ](https://arxiv.org/abs/1703.04730)
+
+- [《Sparse Named Entity Classification using Factorization Machines》A Hirata, M Komachi [Tokyo Metropolitan University] (2017)](https://arxiv.org/abs/1703.04879)
+
+- [《FastQA: A Simple and Efficient Neural Architecture for Question Answering》D Weissenborn, G Wiese, L Seiffe [DFKI] (2017) ](https://arxiv.org/abs/1703.04816)
+
+- [《Conditional Time Series Forecasting with Convolutional Neural Networks》A Borovykh, S Bohte, C W. Oosterlee [Universita di Bologna] (2017) ](https://arxiv.org/abs/1703.04691)
+
+- [《What Uncertainties Do We Need in Bayesian Deep Learning for Computer Vision?》A Kendall, Y Gal [University of Cambridge] (2017)](https://arxiv.org/abs/1703.04977)
+
+- [《Deep Embedding Forest: Forest-based Serving with Deep Embedding Features》J Zhu, Y Shan, J Mao, D Yu, H Rahmanian, Y Zhang [Microsoft & UCSC] (2017) ](https://arxiv.org/abs/1703.05291)
+
+- [《Neural Networks for Beginners. A fast implemention in Matlab, Torch, TensorFlow》F Giannini, V Laveglia, A Rossi, D Zanca, A Zugarini [University of Siena & University of Florence] (2017) ](https://arxiv.org/abs/1703.05298)  [GITHUB](https://github.com/AILabUSiena/NeuralNetworksForBeginners)  [GITHUB](https://github.com/AILabUSiena/NeuralNetworksForBeginners)
+
+- [《Learning to Discover Cross-Domain Relations with Generative Adversarial Networks》T Kim, M Cha, H Kim, J Lee, J Kim [SK T-Brain] (2017) ](https://arxiv.org/abs/1703.05192)
+
+- [【机器学习模型的评价与改进】《Machine Learning: Testing and Error Metrics YouTube》by Luis Serrano [Udacity]](https://www.youtube.com/watch?v=aDW44NPhNw0)
+
+- [《Adobe提出深度抠图：利用卷积网络分离图像前景与背景](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650724336&idx=5&sn=9c21a779fc5433e3ac3ebd3428aea6dc)
+
+- [《谷歌发布语言处理框架SyntaxNet升级版，识别率提高25%》](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650724336&idx=3&sn=e05eee337c12196152d2ef2fdbde6fe8)
+
+- [《MetaMind深度解读NLP研究：如何让机器学习跳读》](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650724336&idx=1&sn=854823739c24ffbda5a3f47638758f9a)
+
+- [【文本分类的选择：词袋模型 vs. 深度序列模型】《Learning when to skim and when to read》by Alexander Rosenberg Johansen](https://metamind.io/research/learning-when-to-skim-and-when-to-read)
+
+[【俯拍图片汽车检测/计数与交互式浏览】《Car Localization and Counting with Overhead Imagery, an Interactive Exploration》by Adam Van Etten](https://medium.com/the-downlinq/car-localization-and-counting-with-overhead-imagery-an-interactive-exploration-9d5a029a596b#.afq3m8veq)  [PDF](http://t.cn/Rikb26A)
+
+- [【如何解释机器学习模型和结果】《Ideas on interpreting machine learning | O'Reilly Media》by Patrick HallWen Phan, SriSatish Ambati ](https://www.oreilly.com/ideas/ideas-on-interpreting-machine-learning)
+
+- [【数学菜鸟的AI学习攻略(六)数学符号轻松入门】《Learning AI If You Suck at Math — P6 — Math Notation Made Easy》by Daniel Jeffries](https://hackernoon.com/learning-ai-if-you-suck-at-math-p6-math-notation-made-easy-1277d76a1fe5#.d2sczebq5)  [PDF](http://t.cn/RikLsY8)
+
+- [【两分钟论文解读之稳定神经网络画风转换】《Stable Neural Style Transfer | Two Minute Papers YouTube》](https://www.youtube.com/watch?v=8u3Hkbev2Gg)
+
+- [【机器学习垃圾邮件过滤综述】《Machine Learning for E-mail Spam Filtering: Review,Techniques and Trends》A Bhowmick, S M. Hazarika [Tezpur University] (2016) - ](https://arxiv.org/abs/1606.01042v1)
+
+- [Quora：有哪些数据科学新人不知道老手才知道的？（独译） ](http://www.36dsj.com/archives/78323)
+
+- [【反反爬虫代码集】’Anti-Anti-Spider 通过与不同特性的网站做斗争（无恶意）提高技术' by luyishisi GitHub:](https://github.com/luyishisi/Anti-Anti-Spider)
+
+- [【基于Python/Scikit-Learn/Jupyter Notebooks/OpenML的机器学习课程】’A machine learning course using Python, Jupyter Notebooks, and OpenML' by Joaquin Vanschoren GitHub:](https://github.com/joaquinvanschoren/ML-course)
+
+- [《AlphaGo战胜李世石一周年，李玉喜博士：AlphaGo核心技术及应用](https://mp.weixin.qq.com/s?__biz=MzAxMzc2NDAxOQ==&mid=2650361579&idx=2&sn=085faf6ffe7ce280e3fbaef48e8ef3e2)
+
+- [【特征工程之美：简洁 ≠ 简单】“Simple ≠ Easy：Simple = the result of massive amounts of planning, work, and refinement.” via:Jeff Sheldon](https://twitter.com/ugmonk/status/842108215961767936)
+
+- [《Genetic CNN》L Xie, A Yuille [The Johns Hopkins University] (2017)](https://arxiv.org/abs/1703.01513)   [GITHUB](https://github.com/aqibsaeed/Genetic-CNN)
+
+- [【花小钱学机器学习：AWS持久竞价实例指南】《Learning Machine Learning on the cheap: Persistent AWS Spot Instances》by Slav Ivanov](https://medium.com/slavv/learning-machine-learning-on-the-cheap-persistent-aws-spot-instances-668e7294b6d8#.7eax3m88d)
+
+- [【用神经网络识别口袋妖怪】《Who is that Neural Network? | Journal of Geek Studies》by Henrique M. Soares](https://jgeekstudies.org/2017/03/12/who-is-that-neural-network/)   [PDF](https://jgeekstudies.files.wordpress.com/2017/03/soares_2017_neural-mon.pdf)
+
+- [《Leaf Classification Playground Competition: Winning Kernels | No Free Hunch》 ](http://blog.kaggle.com/2017/03/15/leaf-classification-playground-competition-winning-kernels/)
+
+- [《计算机是怎样进行开方和幂运算的？ 知乎》](https://www.zhihu.com/question/20930598)
+
+- [《Large-Margin Softmax Loss for Convolutional Neural Networks》W Liu, Y Wen, Z Yu, M Yang [Peking University & South China University of Technology & CMU & Shenzhen University] (2016)](https://arxiv.org/abs/1612.02295)   [笔记](https://zhuanlan.zhihu.com/p/25756194)
+
+- [《用数据说话：把自拍照变成毕加索名画 哪种算法最高效](http://weibo.com/ttarticle/p/show?id=2309351000224085524800352087&u=1402400261&m=4085818857116561&cu=1405455490&ru=1402400261&rm=4084720016485644)
+
+- [【画风迁移优化算法选择】《Picking an optimizer for Style Transfer》by Slav Ivano](https://medium.com/slavv/picking-an-optimizer-for-style-transfer-86e7b8cba84b#.62wt0sh8g)  [GITHUB](https://github.com/slavivanov/Style-Tranfer)   [PDF](https://pan.baidu.com/s/1qYNMmmC)
+
+- [《滴滴研究院副院长叶杰平 | 大规模稀疏和低秩学习》via:算法与数学之美](https://mp.weixin.qq.com/s?__biz=MzA5ODUxOTA5Mg==&mid=2652552787&idx=1&sn=4cebb8ee08734acdd3b82caadce9181e)
+
+- [《Stitch Fix的创新和突破——用数据的心智经营公司》via:大数据杂谈](https://mp.weixin.qq.com/s?__biz=MzA5NzkxMzg1Nw==&mid=2653162195&idx=1&sn=382a2bfdff7342e1320085f9f0cb428c)
+
+[【Stitch Fix算法漫游】“Stitch Fix Algorithms Tour How data Science is woven into the fabric of Stitch Fix” ](http://algorithms-tour.stitchfix.com/)  [GITHUB](http://https://github.com/stitchfix/algorithms-tour)
+
+[【在语言学习方面，儿童是天生的统计学家】《How Do Young Children Learn Language? With Statistics | FABBS》by Michael Frank ](http://http://www.fabbs.org/2017/03/15/how-do-young-children-learn-language-with-statistics/)
