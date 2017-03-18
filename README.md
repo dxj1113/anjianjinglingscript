@@ -16,7 +16,7 @@
 
 - [【程序员实用色彩理论】《Practical Color Theory for People Who Code》by Natalya Shelburne](https://tallys.github.io/color-theory/)
 
-[《Learning to Discover Cross-Domain Relations with Generative Adversarial Networks》T Kim, M Cha, H Kim, J Lee, J Kim [SK T-Brain] (2017)](https://arxiv.org/abs/1703.05192)
+- [《Learning to Discover Cross-Domain Relations with Generative Adversarial Networks》T Kim, M Cha, H Kim, J Lee, J Kim [SK T-Brain] (2017)](https://arxiv.org/abs/1703.05192)
 
 - [【Kaggle竞赛：Quora重复问题检测】“Quora Question Pairs - Can you identify question pairs that have the same intent? | Kaggle”](https://www.kaggle.com/c/quora-question-pairs)
 
@@ -64,6 +64,35 @@
 - [《Comment on "Overcoming catastrophic forgetting in NNs": Are multiple penalties needed?》by Ferenc Huszár ](http://www.inference.vc/comment-on-overcoming-catastrophic-forgetting-in-nns-are-multiple-penalties-needed-2/)
 
 - [《Dissecting Reinforcement Learning》by Massimiliano Patacchiola Part1:](https://mpatacchiola.github.io/blog/2016/12/09/dissecting-reinforcement-learning.html)  [part2](https://mpatacchiola.github.io/blog/2017/01/15/dissecting-reinforcement-learning-2.html)  [part3](https://mpatacchiola.github.io/blog/2017/01/29/dissecting-reinforcement-learning-3.html) [part4](https://mpatacchiola.github.io/blog/2017/02/11/dissecting-reinforcement-learning-4.html) [part5](https://mpatacchiola.github.io/blog/2017/03/14/dissecting-reinforcement-learning-5.html)   [GITHUB](https://github.com/mpatacchiola/dissecting-reinforcement-learning)
+
+- [《(翻译)Wasserstein GAN》via:灰巧克力爱松露](http://blog.csdn.net/shadow_guo/article/details/56003908)
+
+- [《Wasserstein GAN》M Arjovsky, S Chintala, L Bottou [Courant Institute of Mathematical Sciences & Facebook AI Research] (2017) ](https://arxiv.org/abs/1701.07875)  [GITHUB](https://gist.github.com/soumith/71995cecc5b99cda38106ad64503cee3)
+
+- [《机器学习算法实现解析——word2vec源码解析》by zhiyong_will](http://blog.csdn.net/google19890102/article/details/51887344)  [GITHUB](https://github.com/zhaozhiyong19890102/OpenSourceReading/blob/master/word2vec/word2vec.c)
+
+- [《谷歌工程师：聊一聊深度学习的weight initialization》by 夏飞](http://weibo.com/ttarticle/p/show?id=2309351000224086022353855292&u=1402400261&m=4086372094110824&cu=1405455490)
+
+- [【AI/机器学习正重塑医疗产业】《Advances in AI and ML are reshaping healthcare | TechCrunch》by Megh Gupta](https://techcrunch.com/2017/03/16/advances-in-ai-and-ml-are-reshaping-healthcare/)
+- [《让人工智能发明自己的语言：OpenAI语言理解研究新方向](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650724410&idx=1&sn=f66587e3f8c6a20731b68c7bfd3d4564)
+
+- [《卷积网络告诉我，那只精灵宝可梦是谁？》](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650724410&idx=5&sn=3236d9f35b0c0cbf6802f9a6c10ed9f4)
+- [《TensorFlow在产品环境中运行模型的实践经验总结》via:大数据杂谈](https://mp.weixin.qq.com/s?__biz=MzA5NzkxMzg1Nw==&mid=2653162205&idx=1&sn=88b4e0b0248d6b4651e009038325f291)
+
+- [《TensorFlow在产品环境中运行模型的实践经验总结》](https://mp.weixin.qq.com/s?__biz=MzA5NzkxMzg1Nw==&mid=2653162205&idx=1&sn=88b4e0b0248d6b4651e009038325f291)
+
+- [《Google发布新开源图像算法工具Guetzli：压缩35%的图片大小仍保证高质量》](https://mp.weixin.qq.com/s?__biz=MzA4NzE1NzYyMw==&mid=2247487934&idx=1&sn=1665bafe22958afe2e3bef38c4c82d1e)
+
+- [《干货 | 三角兽科技首席科学家王宝勋：自动聊天系统的技术路线，解决方案与挑战》](https://mp.weixin.qq.com/s?__biz=MzAxMzc2NDAxOQ==&mid=2650361617&idx=2&sn=12f0cc171da8031df9f47c9ef7c670af)
+
+- [【(Caffe)多GPU训练R-FCN/Faster-RCNN】’Code for training py-faster-rcnn and py-R-FCN on multiple GPUs in caffe' by Bharat Singh GitHub:](https://github.com/bharatsingh430/py-R-FCN-multiGPU)
+
+- [《那些统计方法可以用于判断因果关系？ - 知乎》](https://www.zhihu.com/question/54182623)
+
+- [【概率与统计概念的可视化诠释】“Seeing Theory - A Visual introduction to probability and statistics”](http://students.brown.edu/seeing-theory/)  [GITHUB](https://github.com/seeingtheory/Seeing-Theory)
+
+- []()
+
 
 -  [微软协作 AI 挑战赛](https://github.com/Microsoft/malmo-challenge)
  
