@@ -237,7 +237,7 @@
 
 - [【文本分类的选择：词袋模型 vs. 深度序列模型】《Learning when to skim and when to read》by Alexander Rosenberg Johansen](https://metamind.io/research/learning-when-to-skim-and-when-to-read)
 
-[【俯拍图片汽车检测/计数与交互式浏览】《Car Localization and Counting with Overhead Imagery, an Interactive Exploration》by Adam Van Etten](https://medium.com/the-downlinq/car-localization-and-counting-with-overhead-imagery-an-interactive-exploration-9d5a029a596b#.afq3m8veq)  [PDF](http://t.cn/Rikb26A)
+- [【俯拍图片汽车检测/计数与交互式浏览】《Car Localization and Counting with Overhead Imagery, an Interactive Exploration》by Adam Van Etten](https://medium.com/the-downlinq/car-localization-and-counting-with-overhead-imagery-an-interactive-exploration-9d5a029a596b#.afq3m8veq)  [PDF](http://t.cn/Rikb26A)
 
 - [【如何解释机器学习模型和结果】《Ideas on interpreting machine learning | O'Reilly Media》by Patrick HallWen Phan, SriSatish Ambati ](https://www.oreilly.com/ideas/ideas-on-interpreting-machine-learning)
 
@@ -277,6 +277,55 @@
 
 - [《Stitch Fix的创新和突破——用数据的心智经营公司》via:大数据杂谈](https://mp.weixin.qq.com/s?__biz=MzA5NzkxMzg1Nw==&mid=2653162195&idx=1&sn=382a2bfdff7342e1320085f9f0cb428c)
 
-[【Stitch Fix算法漫游】“Stitch Fix Algorithms Tour How data Science is woven into the fabric of Stitch Fix” ](http://algorithms-tour.stitchfix.com/)  [GITHUB](http://https://github.com/stitchfix/algorithms-tour)
+- [【Stitch Fix算法漫游】“Stitch Fix Algorithms Tour How data Science is woven into the fabric of Stitch Fix” ](http://algorithms-tour.stitchfix.com/)  [GITHUB](http://https://github.com/stitchfix/algorithms-tour)
 
-[【在语言学习方面，儿童是天生的统计学家】《How Do Young Children Learn Language? With Statistics | FABBS》by Michael Frank ](http://http://www.fabbs.org/2017/03/15/how-do-young-children-learn-language-with-statistics/)
+- [【在语言学习方面，儿童是天生的统计学家】《How Do Young Children Learn Language? With Statistics | FABBS》by Michael Frank ](http://http://www.fabbs.org/2017/03/15/how-do-young-children-learn-language-with-statistics/)
+
+- [【Kaggle数据集：300万条H-1B签证申请记录(2011-2016)】《H-1B Visa Petitions 2011-2016 | Kaggle》](https://www.kaggle.com/nsharan/h-1b-visa)
+
+- [【用Windows画板写代码】“Coding in MS Paint” ](http://https://www.reddit.com/r/ProgrammerHumor/comments/5zcg1z/coding_in_ms_paint/)
+
+- [【SyntaxNet升级及CoNLL跨语言文本解析竞赛】《An Upgrade to SyntaxNet, New Models and a Parsing Competition | Google Research Blog》by David Weiss, Slav Petrov ](https://research.googleblog.com/2017/03/an-upgrade-to-syntaxnet-new-models-and.html)
+
+- [【Deep Q-Learning摘要(CMU 10703 Lecture 10拓展版)】《Deep Q-Learning Recap》](http://blog.davidqiu.com/Research/%5B%20Recap%20%5D%20Deep%20Q-Learning%20Recap/)
+
+- [《Understanding deep learning requires rethinking generalization》C Zhang, S Bengio, M Hardt, B Recht, O Vinyals [MIT & Google Brain & UC Berkeley & Google DeepMind] (2016) ](https://arxiv.org/abs/1611.03530)  [NOTES](http://weibo.com/ttarticle/p/show?id=2309404085408525905224)
+
+- ["程序编写程序：泛用人工智能领域的一颗明珠"](http://weibo.com/ttarticle/p/show?id=2309404085623844686437)
+
+- [【文本分类的选择：词袋模型 vs. 深度序列模型】《Learning when to skim and when to read》by Alexander Rosenberg Johansen](https://metamind.io/research/learning-when-to-skim-and-when-to-read)
+
+- [《LIFT: Learned Invariant Feature Transform》K M Yi, E Trulls, V Lepetit, P Fua [Ecole Polytechnique F´ed´erale de Lausanne] (2016)](https://arxiv.org/abs/1603.09114)  [GITHUB](https://github.com/cvlab-epfl/LIFT)
+
+- [《Making Neural Programming Architectures Generalize via Recursion》J Cai, R Shin, D Song [UC Berkeley] (2017)](https://openreview.net/pdf?id=BkbY4psgg)  [NOTES](https://theneuralperspective.com/2017/03/14/making-neural-programming-architecture-generalize-via-recursion/)
+
+- [《Improving Chinese SRL with Heterogeneous Annotations》Q Xia, B Chang, Z Sui [Peking University] (2017) ](https://arxiv.org/abs/1702.06740)
+
+- [《Nematus: a Toolkit for Neural Machine Translation》R Sennrich, O Firat, K Cho... [University of Edinburgh & Middle East Technical University & New York University & Heidelberg University & University of Zurich] (2017)](https://arxiv.org/abs/1703.04357)  [GITHUB](https://github.com/rsennrich/nematus)
+
+- [《Learning Active Learning from Real and Synthetic Data》K Konyushkova, R Sznitman, P Fua [EPFL & University of Bern] (2017) ](https://arxiv.org/abs/1703.03365)
+
+- [《Ask Me Even More: Dynamic Memory Tensor Networks (Extended Model)》G S Ramachandran, A Sohmshetty [Stanford University] (2017) ](http://https://arxiv.org/abs/1703.03939)  [GITHUB](https://github.com/rgsachin/DMTN)
+
+- [《Introduction to Formal Concept Analysis and Its Applications in Information Retrieval and Related Fields》D I. Ignatov [National Research University Higher School of Economics] (2017) ](https://arxiv.org/abs/1703.02819)
+
+- [《Learning Large-Scale Bayesian Networks with the sparsebn Package》B Aragam, J Gu, Q Zhou [University of California, Los Angeles] (2017) ](https://arxiv.org/abs/1703.04025)  [CRAN](https://cran.r-project.org/web/packages/sparsebn/index.html)  [GITHUB](https://github.com/itsrainingdata/sparsebn-reproduce)
+
+- [《Fast LIDAR-based Road Detection Using Convolutional Neural Networks》L Caltagirone, S Scheidegger, L Svensson, M Wahde [Chalmers University of Technology] (2017) ](https://arxiv.org/abs/1703.03613)  [youtube](https://www.youtube.com/playlist?list=PLKaUu00MYU2hxVpERRJ2il5eCQ2MOO1LB)
+
+- [《Knowledge Acquisition: A Complex Networks Approach》H F. d Arruda, F N. Silva, L d F. Costa, D R. Amancio [University of São Paulo] (2017) ](https://arxiv.org/abs/1703.03366)
+
+- [《Automated Hate Speech Detection and the Problem of Offensive Language》T Davidson, D Warmsley, M Macy, I Weber [Cornell University & HBKU] (2017) ](https://arxiv.org/abs/1703.04009)  [github](https://github.com/t-davidson/hate-speech-and-offensive-language)
+
+
+- [《Design of the Artificial: lessons from the biological roots of general intelligence》N Dehghani [MIT] (2017)](http://https://arxiv.org/abs/1703.02245) 
+
+- [《On Structured Prediction Theory with Calibrated Convex Surrogate Losses》A Osokin, F Bach, S Lacoste-Julien [INRIA & Universite de Montreal] (2017) ](https://arxiv.org/abs/1703.02403)
+
+- [《Parallel Multiscale Autoregressive Density Estimation》S Reed, A v d Oord, N Kalchbrenner, S G Colmenarejo, Z Wang, D Belov, N d Freitas [DeepMind] (2017) ](https://arxiv.org/abs/1703.03664)
+
+- [《Fast and Robust Detection of Fallen People from a Mobile Robot》M Antonello, M Carraro, M Pierobon, E Menegatti [University of Padova] (2017) ](https://arxiv.org/abs/1703.03349)
+
+- [《Deep Convolutional Neural Network Inference with Floating-point Weights and Fixed-point Activations》L Lai, N Suda, V Chandra [ARM Research] (2017) ](https://arxiv.org/abs/1703.03073)
+
+[《Bayesian Optimization with Gradients》J Wu, M Poloczek, A G Wilson, P I. Frazier [Cornell University] (2017)](https://arxiv.org/abs/1703.04389)  [github](https://github.com/wujian16/qKG/tree/jianwu_9_cpp_KG_gradients)
