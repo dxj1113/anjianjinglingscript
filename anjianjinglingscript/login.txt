@@ -1,0 +1,6 @@
+Plugin.Web.Go http//i.alibaba.com/index.htm
+Plugin.Web.HtmlClick myalibaba
+Plugin.WebOperation.SetElementText fm - login - id, szrnb
+Plugin.WebOperation.SetElementText fm - login - password, jiajia141025
+Plugin.WebOperation.ClickElement fm-login-submit
+
