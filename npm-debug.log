@@ -1,0 +1,1135 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'egg',
+1 verbose cli   '--save' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData egg
+8 silly fetchNamedPackageData egg
+9 silly mapToRegistry name egg
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'egg',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'egg',
+12 silly mapToRegistry   name: 'egg',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/egg
+14 verbose request uri https://registry.npmjs.org/egg
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 17:36:09
+17 verbose request id 1467ee60ba3d3a6f
+18 http request GET https://registry.npmjs.org/egg
+19 http 200 https://registry.npmjs.org/egg
+20 verbose headers { server: 'nginx/1.10.1',
+20 verbose headers   'content-type': 'application/json',
+20 verbose headers   'last-modified': 'Thu, 23 Mar 2017 01:54:50 GMT',
+20 verbose headers   etag: 'W/"58d32aea-19991"',
+20 verbose headers   'content-encoding': 'gzip',
+20 verbose headers   'cache-control': 'max-age=300',
+20 verbose headers   'content-length': '9187',
+20 verbose headers   'accept-ranges': 'bytes',
+20 verbose headers   date: 'Thu, 23 Mar 2017 09:36:11 GMT',
+20 verbose headers   via: '1.1 varnish',
+20 verbose headers   age: '0',
+20 verbose headers   connection: 'keep-alive',
+20 verbose headers   'x-served-by': 'cache-nrt6121-NRT',
+20 verbose headers   'x-cache': 'HIT',
+20 verbose headers   'x-cache-hits': '1',
+20 verbose headers   'x-timer': 'S1490261771.358904,VS0,VE121',
+20 verbose headers   vary: 'Accept-Encoding' }
+21 silly get cb [ 200,
+21 silly get   { server: 'nginx/1.10.1',
+21 silly get     'content-type': 'application/json',
+21 silly get     'last-modified': 'Thu, 23 Mar 2017 01:54:50 GMT',
+21 silly get     etag: 'W/"58d32aea-19991"',
+21 silly get     'content-encoding': 'gzip',
+21 silly get     'cache-control': 'max-age=300',
+21 silly get     'content-length': '9187',
+21 silly get     'accept-ranges': 'bytes',
+21 silly get     date: 'Thu, 23 Mar 2017 09:36:11 GMT',
+21 silly get     via: '1.1 varnish',
+21 silly get     age: '0',
+21 silly get     connection: 'keep-alive',
+21 silly get     'x-served-by': 'cache-nrt6121-NRT',
+21 silly get     'x-cache': 'HIT',
+21 silly get     'x-cache-hits': '1',
+21 silly get     'x-timer': 'S1490261771.358904,VS0,VE121',
+21 silly get     vary: 'Accept-Encoding' } ]
+22 verbose get saving egg to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\egg\.cache.json
+23 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+24 silly install normalizeTree
+25 silly loadCurrentTree Finishing
+26 silly loadIdealTree Starting
+27 silly install loadIdealTree
+28 silly cloneCurrentTree Starting
+29 silly install cloneCurrentTreeToIdealTree
+30 silly cloneCurrentTree Finishing
+31 silly loadShrinkwrap Starting
+32 silly install loadShrinkwrap
+33 silly loadShrinkwrap Finishing
+34 silly loadAllDepsIntoIdealTree Starting
+35 silly install loadAllDepsIntoIdealTree
+36 silly resolveWithNewModule egg@1.0.0 checking installable status
+37 silly cache add args [ 'egg', null ]
+38 verbose cache add spec egg
+39 silly cache add parsed spec Result {
+39 silly cache add   raw: 'egg',
+39 silly cache add   scope: null,
+39 silly cache add   escapedName: 'egg',
+39 silly cache add   name: 'egg',
+39 silly cache add   rawSpec: '',
+39 silly cache add   spec: 'latest',
+39 silly cache add   type: 'tag' }
+40 silly addNamed egg@latest
+41 verbose addNamed "latest" is being treated as a dist-tag for egg
+42 info addNameTag [ 'egg', 'latest' ]
+43 silly mapToRegistry name egg
+44 silly mapToRegistry using default registry
+45 silly mapToRegistry registry https://registry.npmjs.org/
+46 silly mapToRegistry data Result {
+46 silly mapToRegistry   raw: 'egg',
+46 silly mapToRegistry   scope: null,
+46 silly mapToRegistry   escapedName: 'egg',
+46 silly mapToRegistry   name: 'egg',
+46 silly mapToRegistry   rawSpec: '',
+46 silly mapToRegistry   spec: 'latest',
+46 silly mapToRegistry   type: 'tag' }
+47 silly mapToRegistry uri https://registry.npmjs.org/egg
+48 verbose addNameTag registry:https://registry.npmjs.org/egg not in flight; fetching
+49 verbose get https://registry.npmjs.org/egg not expired, no request
+50 silly addNameTag next cb for egg with tag latest
+51 silly addNamed egg@1.0.0
+52 verbose addNamed "1.0.0" is a plain semver version for egg
+53 silly mapToRegistry name egg
+54 silly mapToRegistry using default registry
+55 silly mapToRegistry registry https://registry.npmjs.org/
+56 silly mapToRegistry data Result {
+56 silly mapToRegistry   raw: 'egg',
+56 silly mapToRegistry   scope: null,
+56 silly mapToRegistry   escapedName: 'egg',
+56 silly mapToRegistry   name: 'egg',
+56 silly mapToRegistry   rawSpec: '',
+56 silly mapToRegistry   spec: 'latest',
+56 silly mapToRegistry   type: 'tag' }
+57 silly mapToRegistry uri https://registry.npmjs.org/egg
+58 verbose addRemoteTarball https://registry.npmjs.org/egg/-/egg-1.0.0.tgz not in flight; adding
+59 verbose addRemoteTarball [ 'https://registry.npmjs.org/egg/-/egg-1.0.0.tgz',
+59 verbose addRemoteTarball   '6823257aff82f8a72608bfa0d73a74882ad4b117' ]
+60 info retry fetch attempt 1 at 17:36:10
+61 info attempt registry request try #1 at 17:36:10
+62 http fetch GET https://registry.npmjs.org/egg/-/egg-1.0.0.tgz
+63 http fetch 200 https://registry.npmjs.org/egg/-/egg-1.0.0.tgz
+64 silly fetchAndShaCheck shasum 6823257aff82f8a72608bfa0d73a74882ad4b117
+65 verbose addTmpTarball C:\Users\Administrator\AppData\Local\Temp\npm-7100-3031f412\registry.npmjs.org\egg\-\egg-1.0.0.tgz not in flight; adding
+66 verbose addTmpTarball already have metadata; skipping unpack for egg@1.0.0
+67 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+68 silly cache afterAdd egg@1.0.0
+69 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\egg\1.0.0\package\package.json not in flight; writing
+70 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+71 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\egg\1.0.0\package\package.json written
+72 silly fetchNamedPackageData accepts
+73 silly mapToRegistry name accepts
+74 silly mapToRegistry using default registry
+75 silly mapToRegistry registry https://registry.npmjs.org/
+76 silly mapToRegistry data Result {
+76 silly mapToRegistry   raw: 'accepts',
+76 silly mapToRegistry   scope: null,
+76 silly mapToRegistry   escapedName: 'accepts',
+76 silly mapToRegistry   name: 'accepts',
+76 silly mapToRegistry   rawSpec: '',
+76 silly mapToRegistry   spec: 'latest',
+76 silly mapToRegistry   type: 'tag' }
+77 silly mapToRegistry uri https://registry.npmjs.org/accepts
+78 silly fetchNamedPackageData agentkeepalive
+79 silly mapToRegistry name agentkeepalive
+80 silly mapToRegistry using default registry
+81 silly mapToRegistry registry https://registry.npmjs.org/
+82 silly mapToRegistry data Result {
+82 silly mapToRegistry   raw: 'agentkeepalive',
+82 silly mapToRegistry   scope: null,
+82 silly mapToRegistry   escapedName: 'agentkeepalive',
+82 silly mapToRegistry   name: 'agentkeepalive',
+82 silly mapToRegistry   rawSpec: '',
+82 silly mapToRegistry   spec: 'latest',
+82 silly mapToRegistry   type: 'tag' }
+83 silly mapToRegistry uri https://registry.npmjs.org/agentkeepalive
+84 silly fetchNamedPackageData cluster-client
+85 silly mapToRegistry name cluster-client
+86 silly mapToRegistry using default registry
+87 silly mapToRegistry registry https://registry.npmjs.org/
+88 silly mapToRegistry data Result {
+88 silly mapToRegistry   raw: 'cluster-client',
+88 silly mapToRegistry   scope: null,
+88 silly mapToRegistry   escapedName: 'cluster-client',
+88 silly mapToRegistry   name: 'cluster-client',
+88 silly mapToRegistry   rawSpec: '',
+88 silly mapToRegistry   spec: 'latest',
+88 silly mapToRegistry   type: 'tag' }
+89 silly mapToRegistry uri https://registry.npmjs.org/cluster-client
+90 silly fetchNamedPackageData co
+91 silly mapToRegistry name co
+92 silly mapToRegistry using default registry
+93 silly mapToRegistry registry https://registry.npmjs.org/
+94 silly mapToRegistry data Result {
+94 silly mapToRegistry   raw: 'co',
+94 silly mapToRegistry   scope: null,
+94 silly mapToRegistry   escapedName: 'co',
+94 silly mapToRegistry   name: 'co',
+94 silly mapToRegistry   rawSpec: '',
+94 silly mapToRegistry   spec: 'latest',
+94 silly mapToRegistry   type: 'tag' }
+95 silly mapToRegistry uri https://registry.npmjs.org/co
+96 silly fetchNamedPackageData debug
+97 silly mapToRegistry name debug
+98 silly mapToRegistry using default registry
+99 silly mapToRegistry registry https://registry.npmjs.org/
+100 silly mapToRegistry data Result {
+100 silly mapToRegistry   raw: 'debug',
+100 silly mapToRegistry   scope: null,
+100 silly mapToRegistry   escapedName: 'debug',
+100 silly mapToRegistry   name: 'debug',
+100 silly mapToRegistry   rawSpec: '',
+100 silly mapToRegistry   spec: 'latest',
+100 silly mapToRegistry   type: 'tag' }
+101 silly mapToRegistry uri https://registry.npmjs.org/debug
+102 silly fetchNamedPackageData delegates
+103 silly mapToRegistry name delegates
+104 silly mapToRegistry using default registry
+105 silly mapToRegistry registry https://registry.npmjs.org/
+106 silly mapToRegistry data Result {
+106 silly mapToRegistry   raw: 'delegates',
+106 silly mapToRegistry   scope: null,
+106 silly mapToRegistry   escapedName: 'delegates',
+106 silly mapToRegistry   name: 'delegates',
+106 silly mapToRegistry   rawSpec: '',
+106 silly mapToRegistry   spec: 'latest',
+106 silly mapToRegistry   type: 'tag' }
+107 silly mapToRegistry uri https://registry.npmjs.org/delegates
+108 silly fetchNamedPackageData egg-cluster
+109 silly mapToRegistry name egg-cluster
+110 silly mapToRegistry using default registry
+111 silly mapToRegistry registry https://registry.npmjs.org/
+112 silly mapToRegistry data Result {
+112 silly mapToRegistry   raw: 'egg-cluster',
+112 silly mapToRegistry   scope: null,
+112 silly mapToRegistry   escapedName: 'egg-cluster',
+112 silly mapToRegistry   name: 'egg-cluster',
+112 silly mapToRegistry   rawSpec: '',
+112 silly mapToRegistry   spec: 'latest',
+112 silly mapToRegistry   type: 'tag' }
+113 silly mapToRegistry uri https://registry.npmjs.org/egg-cluster
+114 silly fetchNamedPackageData egg-cookies
+115 silly mapToRegistry name egg-cookies
+116 silly mapToRegistry using default registry
+117 silly mapToRegistry registry https://registry.npmjs.org/
+118 silly mapToRegistry data Result {
+118 silly mapToRegistry   raw: 'egg-cookies',
+118 silly mapToRegistry   scope: null,
+118 silly mapToRegistry   escapedName: 'egg-cookies',
+118 silly mapToRegistry   name: 'egg-cookies',
+118 silly mapToRegistry   rawSpec: '',
+118 silly mapToRegistry   spec: 'latest',
+118 silly mapToRegistry   type: 'tag' }
+119 silly mapToRegistry uri https://registry.npmjs.org/egg-cookies
+120 silly fetchNamedPackageData egg-core
+121 silly mapToRegistry name egg-core
+122 silly mapToRegistry using default registry
+123 silly mapToRegistry registry https://registry.npmjs.org/
+124 silly mapToRegistry data Result {
+124 silly mapToRegistry   raw: 'egg-core',
+124 silly mapToRegistry   scope: null,
+124 silly mapToRegistry   escapedName: 'egg-core',
+124 silly mapToRegistry   name: 'egg-core',
+124 silly mapToRegistry   rawSpec: '',
+124 silly mapToRegistry   spec: 'latest',
+124 silly mapToRegistry   type: 'tag' }
+125 silly mapToRegistry uri https://registry.npmjs.org/egg-core
+126 silly fetchNamedPackageData egg-development
+127 silly mapToRegistry name egg-development
+128 silly mapToRegistry using default registry
+129 silly mapToRegistry registry https://registry.npmjs.org/
+130 silly mapToRegistry data Result {
+130 silly mapToRegistry   raw: 'egg-development',
+130 silly mapToRegistry   scope: null,
+130 silly mapToRegistry   escapedName: 'egg-development',
+130 silly mapToRegistry   name: 'egg-development',
+130 silly mapToRegistry   rawSpec: '',
+130 silly mapToRegistry   spec: 'latest',
+130 silly mapToRegistry   type: 'tag' }
+131 silly mapToRegistry uri https://registry.npmjs.org/egg-development
+132 silly fetchNamedPackageData egg-i18n
+133 silly mapToRegistry name egg-i18n
+134 silly mapToRegistry using default registry
+135 silly mapToRegistry registry https://registry.npmjs.org/
+136 silly mapToRegistry data Result {
+136 silly mapToRegistry   raw: 'egg-i18n',
+136 silly mapToRegistry   scope: null,
+136 silly mapToRegistry   escapedName: 'egg-i18n',
+136 silly mapToRegistry   name: 'egg-i18n',
+136 silly mapToRegistry   rawSpec: '',
+136 silly mapToRegistry   spec: 'latest',
+136 silly mapToRegistry   type: 'tag' }
+137 silly mapToRegistry uri https://registry.npmjs.org/egg-i18n
+138 silly fetchNamedPackageData egg-jsonp
+139 silly mapToRegistry name egg-jsonp
+140 silly mapToRegistry using default registry
+141 silly mapToRegistry registry https://registry.npmjs.org/
+142 silly mapToRegistry data Result {
+142 silly mapToRegistry   raw: 'egg-jsonp',
+142 silly mapToRegistry   scope: null,
+142 silly mapToRegistry   escapedName: 'egg-jsonp',
+142 silly mapToRegistry   name: 'egg-jsonp',
+142 silly mapToRegistry   rawSpec: '',
+142 silly mapToRegistry   spec: 'latest',
+142 silly mapToRegistry   type: 'tag' }
+143 silly mapToRegistry uri https://registry.npmjs.org/egg-jsonp
+144 silly fetchNamedPackageData egg-logger
+145 silly mapToRegistry name egg-logger
+146 silly mapToRegistry using default registry
+147 silly mapToRegistry registry https://registry.npmjs.org/
+148 silly mapToRegistry data Result {
+148 silly mapToRegistry   raw: 'egg-logger',
+148 silly mapToRegistry   scope: null,
+148 silly mapToRegistry   escapedName: 'egg-logger',
+148 silly mapToRegistry   name: 'egg-logger',
+148 silly mapToRegistry   rawSpec: '',
+148 silly mapToRegistry   spec: 'latest',
+148 silly mapToRegistry   type: 'tag' }
+149 silly mapToRegistry uri https://registry.npmjs.org/egg-logger
+150 silly fetchNamedPackageData egg-logrotator
+151 silly mapToRegistry name egg-logrotator
+152 silly mapToRegistry using default registry
+153 silly mapToRegistry registry https://registry.npmjs.org/
+154 silly mapToRegistry data Result {
+154 silly mapToRegistry   raw: 'egg-logrotator',
+154 silly mapToRegistry   scope: null,
+154 silly mapToRegistry   escapedName: 'egg-logrotator',
+154 silly mapToRegistry   name: 'egg-logrotator',
+154 silly mapToRegistry   rawSpec: '',
+154 silly mapToRegistry   spec: 'latest',
+154 silly mapToRegistry   type: 'tag' }
+155 silly mapToRegistry uri https://registry.npmjs.org/egg-logrotator
+156 silly fetchNamedPackageData egg-multipart
+157 silly mapToRegistry name egg-multipart
+158 silly mapToRegistry using default registry
+159 silly mapToRegistry registry https://registry.npmjs.org/
+160 silly mapToRegistry data Result {
+160 silly mapToRegistry   raw: 'egg-multipart',
+160 silly mapToRegistry   scope: null,
+160 silly mapToRegistry   escapedName: 'egg-multipart',
+160 silly mapToRegistry   name: 'egg-multipart',
+160 silly mapToRegistry   rawSpec: '',
+160 silly mapToRegistry   spec: 'latest',
+160 silly mapToRegistry   type: 'tag' }
+161 silly mapToRegistry uri https://registry.npmjs.org/egg-multipart
+162 silly fetchNamedPackageData egg-onerror
+163 silly mapToRegistry name egg-onerror
+164 silly mapToRegistry using default registry
+165 silly mapToRegistry registry https://registry.npmjs.org/
+166 silly mapToRegistry data Result {
+166 silly mapToRegistry   raw: 'egg-onerror',
+166 silly mapToRegistry   scope: null,
+166 silly mapToRegistry   escapedName: 'egg-onerror',
+166 silly mapToRegistry   name: 'egg-onerror',
+166 silly mapToRegistry   rawSpec: '',
+166 silly mapToRegistry   spec: 'latest',
+166 silly mapToRegistry   type: 'tag' }
+167 silly mapToRegistry uri https://registry.npmjs.org/egg-onerror
+168 silly fetchNamedPackageData egg-schedule
+169 silly mapToRegistry name egg-schedule
+170 silly mapToRegistry using default registry
+171 silly mapToRegistry registry https://registry.npmjs.org/
+172 silly mapToRegistry data Result {
+172 silly mapToRegistry   raw: 'egg-schedule',
+172 silly mapToRegistry   scope: null,
+172 silly mapToRegistry   escapedName: 'egg-schedule',
+172 silly mapToRegistry   name: 'egg-schedule',
+172 silly mapToRegistry   rawSpec: '',
+172 silly mapToRegistry   spec: 'latest',
+172 silly mapToRegistry   type: 'tag' }
+173 silly mapToRegistry uri https://registry.npmjs.org/egg-schedule
+174 silly fetchNamedPackageData egg-security
+175 silly mapToRegistry name egg-security
+176 silly mapToRegistry using default registry
+177 silly mapToRegistry registry https://registry.npmjs.org/
+178 silly mapToRegistry data Result {
+178 silly mapToRegistry   raw: 'egg-security',
+178 silly mapToRegistry   scope: null,
+178 silly mapToRegistry   escapedName: 'egg-security',
+178 silly mapToRegistry   name: 'egg-security',
+178 silly mapToRegistry   rawSpec: '',
+178 silly mapToRegistry   spec: 'latest',
+178 silly mapToRegistry   type: 'tag' }
+179 silly mapToRegistry uri https://registry.npmjs.org/egg-security
+180 silly fetchNamedPackageData egg-session
+181 silly mapToRegistry name egg-session
+182 silly mapToRegistry using default registry
+183 silly mapToRegistry registry https://registry.npmjs.org/
+184 silly mapToRegistry data Result {
+184 silly mapToRegistry   raw: 'egg-session',
+184 silly mapToRegistry   scope: null,
+184 silly mapToRegistry   escapedName: 'egg-session',
+184 silly mapToRegistry   name: 'egg-session',
+184 silly mapToRegistry   rawSpec: '',
+184 silly mapToRegistry   spec: 'latest',
+184 silly mapToRegistry   type: 'tag' }
+185 silly mapToRegistry uri https://registry.npmjs.org/egg-session
+186 silly fetchNamedPackageData egg-static
+187 silly mapToRegistry name egg-static
+188 silly mapToRegistry using default registry
+189 silly mapToRegistry registry https://registry.npmjs.org/
+190 silly mapToRegistry data Result {
+190 silly mapToRegistry   raw: 'egg-static',
+190 silly mapToRegistry   scope: null,
+190 silly mapToRegistry   escapedName: 'egg-static',
+190 silly mapToRegistry   name: 'egg-static',
+190 silly mapToRegistry   rawSpec: '',
+190 silly mapToRegistry   spec: 'latest',
+190 silly mapToRegistry   type: 'tag' }
+191 silly mapToRegistry uri https://registry.npmjs.org/egg-static
+192 silly fetchNamedPackageData egg-view
+193 silly mapToRegistry name egg-view
+194 silly mapToRegistry using default registry
+195 silly mapToRegistry registry https://registry.npmjs.org/
+196 silly mapToRegistry data Result {
+196 silly mapToRegistry   raw: 'egg-view',
+196 silly mapToRegistry   scope: null,
+196 silly mapToRegistry   escapedName: 'egg-view',
+196 silly mapToRegistry   name: 'egg-view',
+196 silly mapToRegistry   rawSpec: '',
+196 silly mapToRegistry   spec: 'latest',
+196 silly mapToRegistry   type: 'tag' }
+197 silly mapToRegistry uri https://registry.npmjs.org/egg-view
+198 silly fetchNamedPackageData egg-watcher
+199 silly mapToRegistry name egg-watcher
+200 silly mapToRegistry using default registry
+201 silly mapToRegistry registry https://registry.npmjs.org/
+202 silly mapToRegistry data Result {
+202 silly mapToRegistry   raw: 'egg-watcher',
+202 silly mapToRegistry   scope: null,
+202 silly mapToRegistry   escapedName: 'egg-watcher',
+202 silly mapToRegistry   name: 'egg-watcher',
+202 silly mapToRegistry   rawSpec: '',
+202 silly mapToRegistry   spec: 'latest',
+202 silly mapToRegistry   type: 'tag' }
+203 silly mapToRegistry uri https://registry.npmjs.org/egg-watcher
+204 silly fetchNamedPackageData extend
+205 silly mapToRegistry name extend
+206 silly mapToRegistry using default registry
+207 silly mapToRegistry registry https://registry.npmjs.org/
+208 silly mapToRegistry data Result {
+208 silly mapToRegistry   raw: 'extend',
+208 silly mapToRegistry   scope: null,
+208 silly mapToRegistry   escapedName: 'extend',
+208 silly mapToRegistry   name: 'extend',
+208 silly mapToRegistry   rawSpec: '',
+208 silly mapToRegistry   spec: 'latest',
+208 silly mapToRegistry   type: 'tag' }
+209 silly mapToRegistry uri https://registry.npmjs.org/extend
+210 silly fetchNamedPackageData graceful
+211 silly mapToRegistry name graceful
+212 silly mapToRegistry using default registry
+213 silly mapToRegistry registry https://registry.npmjs.org/
+214 silly mapToRegistry data Result {
+214 silly mapToRegistry   raw: 'graceful',
+214 silly mapToRegistry   scope: null,
+214 silly mapToRegistry   escapedName: 'graceful',
+214 silly mapToRegistry   name: 'graceful',
+214 silly mapToRegistry   rawSpec: '',
+214 silly mapToRegistry   spec: 'latest',
+214 silly mapToRegistry   type: 'tag' }
+215 silly mapToRegistry uri https://registry.npmjs.org/graceful
+216 silly fetchNamedPackageData is-type-of
+217 silly mapToRegistry name is-type-of
+218 silly mapToRegistry using default registry
+219 silly mapToRegistry registry https://registry.npmjs.org/
+220 silly mapToRegistry data Result {
+220 silly mapToRegistry   raw: 'is-type-of',
+220 silly mapToRegistry   scope: null,
+220 silly mapToRegistry   escapedName: 'is-type-of',
+220 silly mapToRegistry   name: 'is-type-of',
+220 silly mapToRegistry   rawSpec: '',
+220 silly mapToRegistry   spec: 'latest',
+220 silly mapToRegistry   type: 'tag' }
+221 silly mapToRegistry uri https://registry.npmjs.org/is-type-of
+222 silly fetchNamedPackageData koa-bodyparser
+223 silly mapToRegistry name koa-bodyparser
+224 silly mapToRegistry using default registry
+225 silly mapToRegistry registry https://registry.npmjs.org/
+226 silly mapToRegistry data Result {
+226 silly mapToRegistry   raw: 'koa-bodyparser',
+226 silly mapToRegistry   scope: null,
+226 silly mapToRegistry   escapedName: 'koa-bodyparser',
+226 silly mapToRegistry   name: 'koa-bodyparser',
+226 silly mapToRegistry   rawSpec: '',
+226 silly mapToRegistry   spec: 'latest',
+226 silly mapToRegistry   type: 'tag' }
+227 silly mapToRegistry uri https://registry.npmjs.org/koa-bodyparser
+228 silly fetchNamedPackageData koa-is-json
+229 silly mapToRegistry name koa-is-json
+230 silly mapToRegistry using default registry
+231 silly mapToRegistry registry https://registry.npmjs.org/
+232 silly mapToRegistry data Result {
+232 silly mapToRegistry   raw: 'koa-is-json',
+232 silly mapToRegistry   scope: null,
+232 silly mapToRegistry   escapedName: 'koa-is-json',
+232 silly mapToRegistry   name: 'koa-is-json',
+232 silly mapToRegistry   rawSpec: '',
+232 silly mapToRegistry   spec: 'latest',
+232 silly mapToRegistry   type: 'tag' }
+233 silly mapToRegistry uri https://registry.npmjs.org/koa-is-json
+234 silly fetchNamedPackageData mime-types
+235 silly mapToRegistry name mime-types
+236 silly mapToRegistry using default registry
+237 silly mapToRegistry registry https://registry.npmjs.org/
+238 silly mapToRegistry data Result {
+238 silly mapToRegistry   raw: 'mime-types',
+238 silly mapToRegistry   scope: null,
+238 silly mapToRegistry   escapedName: 'mime-types',
+238 silly mapToRegistry   name: 'mime-types',
+238 silly mapToRegistry   rawSpec: '',
+238 silly mapToRegistry   spec: 'latest',
+238 silly mapToRegistry   type: 'tag' }
+239 silly mapToRegistry uri https://registry.npmjs.org/mime-types
+240 silly fetchNamedPackageData sendmessage
+241 silly mapToRegistry name sendmessage
+242 silly mapToRegistry using default registry
+243 silly mapToRegistry registry https://registry.npmjs.org/
+244 silly mapToRegistry data Result {
+244 silly mapToRegistry   raw: 'sendmessage',
+244 silly mapToRegistry   scope: null,
+244 silly mapToRegistry   escapedName: 'sendmessage',
+244 silly mapToRegistry   name: 'sendmessage',
+244 silly mapToRegistry   rawSpec: '',
+244 silly mapToRegistry   spec: 'latest',
+244 silly mapToRegistry   type: 'tag' }
+245 silly mapToRegistry uri https://registry.npmjs.org/sendmessage
+246 silly fetchNamedPackageData urllib
+247 silly mapToRegistry name urllib
+248 silly mapToRegistry using default registry
+249 silly mapToRegistry registry https://registry.npmjs.org/
+250 silly mapToRegistry data Result {
+250 silly mapToRegistry   raw: 'urllib',
+250 silly mapToRegistry   scope: null,
+250 silly mapToRegistry   escapedName: 'urllib',
+250 silly mapToRegistry   name: 'urllib',
+250 silly mapToRegistry   rawSpec: '',
+250 silly mapToRegistry   spec: 'latest',
+250 silly mapToRegistry   type: 'tag' }
+251 silly mapToRegistry uri https://registry.npmjs.org/urllib
+252 silly fetchNamedPackageData utility
+253 silly mapToRegistry name utility
+254 silly mapToRegistry using default registry
+255 silly mapToRegistry registry https://registry.npmjs.org/
+256 silly mapToRegistry data Result {
+256 silly mapToRegistry   raw: 'utility',
+256 silly mapToRegistry   scope: null,
+256 silly mapToRegistry   escapedName: 'utility',
+256 silly mapToRegistry   name: 'utility',
+256 silly mapToRegistry   rawSpec: '',
+256 silly mapToRegistry   spec: 'latest',
+256 silly mapToRegistry   type: 'tag' }
+257 silly mapToRegistry uri https://registry.npmjs.org/utility
+258 verbose request uri https://registry.npmjs.org/accepts
+259 verbose request no auth needed
+260 info attempt registry request try #1 at 17:36:17
+261 http request GET https://registry.npmjs.org/accepts
+262 verbose request uri https://registry.npmjs.org/agentkeepalive
+263 verbose request no auth needed
+264 info attempt registry request try #1 at 17:36:17
+265 http request GET https://registry.npmjs.org/agentkeepalive
+266 verbose request uri https://registry.npmjs.org/cluster-client
+267 verbose request no auth needed
+268 info attempt registry request try #1 at 17:36:17
+269 http request GET https://registry.npmjs.org/cluster-client
+270 verbose request uri https://registry.npmjs.org/debug
+271 verbose request no auth needed
+272 info attempt registry request try #1 at 17:36:17
+273 http request GET https://registry.npmjs.org/debug
+274 verbose request uri https://registry.npmjs.org/delegates
+275 verbose request no auth needed
+276 info attempt registry request try #1 at 17:36:17
+277 http request GET https://registry.npmjs.org/delegates
+278 verbose request uri https://registry.npmjs.org/egg-cluster
+279 verbose request no auth needed
+280 info attempt registry request try #1 at 17:36:17
+281 http request GET https://registry.npmjs.org/egg-cluster
+282 verbose request uri https://registry.npmjs.org/egg-cookies
+283 verbose request no auth needed
+284 info attempt registry request try #1 at 17:36:17
+285 http request GET https://registry.npmjs.org/egg-cookies
+286 verbose request uri https://registry.npmjs.org/egg-core
+287 verbose request no auth needed
+288 info attempt registry request try #1 at 17:36:17
+289 http request GET https://registry.npmjs.org/egg-core
+290 verbose request uri https://registry.npmjs.org/egg-development
+291 verbose request no auth needed
+292 info attempt registry request try #1 at 17:36:17
+293 http request GET https://registry.npmjs.org/egg-development
+294 verbose request uri https://registry.npmjs.org/egg-i18n
+295 verbose request no auth needed
+296 info attempt registry request try #1 at 17:36:17
+297 http request GET https://registry.npmjs.org/egg-i18n
+298 verbose request uri https://registry.npmjs.org/egg-jsonp
+299 verbose request no auth needed
+300 info attempt registry request try #1 at 17:36:17
+301 http request GET https://registry.npmjs.org/egg-jsonp
+302 verbose request uri https://registry.npmjs.org/egg-logger
+303 verbose request no auth needed
+304 info attempt registry request try #1 at 17:36:17
+305 http request GET https://registry.npmjs.org/egg-logger
+306 verbose request uri https://registry.npmjs.org/egg-logrotator
+307 verbose request no auth needed
+308 info attempt registry request try #1 at 17:36:17
+309 http request GET https://registry.npmjs.org/egg-logrotator
+310 verbose request uri https://registry.npmjs.org/egg-multipart
+311 verbose request no auth needed
+312 info attempt registry request try #1 at 17:36:17
+313 http request GET https://registry.npmjs.org/egg-multipart
+314 verbose request uri https://registry.npmjs.org/egg-onerror
+315 verbose request no auth needed
+316 info attempt registry request try #1 at 17:36:17
+317 http request GET https://registry.npmjs.org/egg-onerror
+318 verbose request uri https://registry.npmjs.org/egg-schedule
+319 verbose request no auth needed
+320 info attempt registry request try #1 at 17:36:17
+321 http request GET https://registry.npmjs.org/egg-schedule
+322 verbose request uri https://registry.npmjs.org/egg-security
+323 verbose request no auth needed
+324 info attempt registry request try #1 at 17:36:17
+325 http request GET https://registry.npmjs.org/egg-security
+326 verbose request uri https://registry.npmjs.org/egg-session
+327 verbose request no auth needed
+328 info attempt registry request try #1 at 17:36:17
+329 http request GET https://registry.npmjs.org/egg-session
+330 verbose request uri https://registry.npmjs.org/egg-static
+331 verbose request no auth needed
+332 info attempt registry request try #1 at 17:36:17
+333 http request GET https://registry.npmjs.org/egg-static
+334 verbose request uri https://registry.npmjs.org/egg-view
+335 verbose request no auth needed
+336 info attempt registry request try #1 at 17:36:17
+337 http request GET https://registry.npmjs.org/egg-view
+338 verbose request uri https://registry.npmjs.org/egg-watcher
+339 verbose request no auth needed
+340 info attempt registry request try #1 at 17:36:17
+341 http request GET https://registry.npmjs.org/egg-watcher
+342 verbose request uri https://registry.npmjs.org/graceful
+343 verbose request no auth needed
+344 info attempt registry request try #1 at 17:36:17
+345 http request GET https://registry.npmjs.org/graceful
+346 verbose request uri https://registry.npmjs.org/is-type-of
+347 verbose request no auth needed
+348 info attempt registry request try #1 at 17:36:17
+349 http request GET https://registry.npmjs.org/is-type-of
+350 verbose request uri https://registry.npmjs.org/koa-bodyparser
+351 verbose request no auth needed
+352 info attempt registry request try #1 at 17:36:17
+353 http request GET https://registry.npmjs.org/koa-bodyparser
+354 verbose request uri https://registry.npmjs.org/koa-is-json
+355 verbose request no auth needed
+356 info attempt registry request try #1 at 17:36:17
+357 http request GET https://registry.npmjs.org/koa-is-json
+358 verbose request uri https://registry.npmjs.org/sendmessage
+359 verbose request no auth needed
+360 info attempt registry request try #1 at 17:36:17
+361 http request GET https://registry.npmjs.org/sendmessage
+362 verbose request uri https://registry.npmjs.org/urllib
+363 verbose request no auth needed
+364 info attempt registry request try #1 at 17:36:17
+365 http request GET https://registry.npmjs.org/urllib
+366 verbose request uri https://registry.npmjs.org/utility
+367 verbose request no auth needed
+368 info attempt registry request try #1 at 17:36:17
+369 http request GET https://registry.npmjs.org/utility
+370 verbose request uri https://registry.npmjs.org/extend
+371 verbose request no auth needed
+372 info attempt registry request try #1 at 17:36:17
+373 verbose etag W/"58cbf97c-386f"
+374 verbose lastModified Fri, 17 Mar 2017 14:58:04 GMT
+375 http request GET https://registry.npmjs.org/extend
+376 verbose request uri https://registry.npmjs.org/co
+377 verbose request no auth needed
+378 info attempt registry request try #1 at 17:36:17
+379 verbose etag W/"58cf6674-a712"
+380 verbose lastModified Mon, 20 Mar 2017 05:19:48 GMT
+381 http request GET https://registry.npmjs.org/co
+382 verbose request uri https://registry.npmjs.org/mime-types
+383 verbose request no auth needed
+384 info attempt registry request try #1 at 17:36:17
+385 verbose etag W/"58bd342a-e8b3"
+386 verbose lastModified Mon, 06 Mar 2017 10:04:26 GMT
+387 http request GET https://registry.npmjs.org/mime-types
+388 http 200 https://registry.npmjs.org/graceful
+389 verbose headers { server: 'nginx/1.10.1',
+389 verbose headers   'content-type': 'application/json',
+389 verbose headers   'last-modified': 'Thu, 23 Jun 2016 15:54:38 GMT',
+389 verbose headers   etag: 'W/"576c063e-3ead"',
+389 verbose headers   'content-encoding': 'gzip',
+389 verbose headers   'cache-control': 'max-age=300',
+389 verbose headers   'content-length': '3631',
+389 verbose headers   'accept-ranges': 'bytes',
+389 verbose headers   date: 'Thu, 23 Mar 2017 09:36:21 GMT',
+389 verbose headers   via: '1.1 varnish',
+389 verbose headers   age: '0',
+389 verbose headers   connection: 'keep-alive',
+389 verbose headers   'x-served-by': 'cache-nrt6131-NRT',
+389 verbose headers   'x-cache': 'HIT',
+389 verbose headers   'x-cache-hits': '1',
+389 verbose headers   'x-timer': 'S1490261781.222172,VS0,VE107',
+389 verbose headers   vary: 'Accept-Encoding' }
+390 silly get cb [ 200,
+390 silly get   { server: 'nginx/1.10.1',
+390 silly get     'content-type': 'application/json',
+390 silly get     'last-modified': 'Thu, 23 Jun 2016 15:54:38 GMT',
+390 silly get     etag: 'W/"576c063e-3ead"',
+390 silly get     'content-encoding': 'gzip',
+390 silly get     'cache-control': 'max-age=300',
+390 silly get     'content-length': '3631',
+390 silly get     'accept-ranges': 'bytes',
+390 silly get     date: 'Thu, 23 Mar 2017 09:36:21 GMT',
+390 silly get     via: '1.1 varnish',
+390 silly get     age: '0',
+390 silly get     connection: 'keep-alive',
+390 silly get     'x-served-by': 'cache-nrt6131-NRT',
+390 silly get     'x-cache': 'HIT',
+390 silly get     'x-cache-hits': '1',
+390 silly get     'x-timer': 'S1490261781.222172,VS0,VE107',
+390 silly get     vary: 'Accept-Encoding' } ]
+391 verbose get saving graceful to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\graceful\.cache.json
+392 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+393 silly resolveWithNewModule graceful@1.0.1 checking installable status
+394 silly cache add args [ 'graceful@^1.0.1', null ]
+395 verbose cache add spec graceful@^1.0.1
+396 silly cache add parsed spec Result {
+396 silly cache add   raw: 'graceful@^1.0.1',
+396 silly cache add   scope: null,
+396 silly cache add   escapedName: 'graceful',
+396 silly cache add   name: 'graceful',
+396 silly cache add   rawSpec: '^1.0.1',
+396 silly cache add   spec: '>=1.0.1 <2.0.0',
+396 silly cache add   type: 'range' }
+397 silly addNamed graceful@>=1.0.1 <2.0.0
+398 verbose addNamed ">=1.0.1 <2.0.0" is a valid semver range for graceful
+399 silly addNameRange { name: 'graceful', range: '>=1.0.1 <2.0.0', hasData: false }
+400 silly mapToRegistry name graceful
+401 silly mapToRegistry using default registry
+402 silly mapToRegistry registry https://registry.npmjs.org/
+403 silly mapToRegistry data Result {
+403 silly mapToRegistry   raw: 'graceful',
+403 silly mapToRegistry   scope: null,
+403 silly mapToRegistry   escapedName: 'graceful',
+403 silly mapToRegistry   name: 'graceful',
+403 silly mapToRegistry   rawSpec: '',
+403 silly mapToRegistry   spec: 'latest',
+403 silly mapToRegistry   type: 'tag' }
+404 silly mapToRegistry uri https://registry.npmjs.org/graceful
+405 verbose addNameRange registry:https://registry.npmjs.org/graceful not in flight; fetching
+406 verbose get https://registry.npmjs.org/graceful not expired, no request
+407 silly addNameRange number 2 { name: 'graceful', range: '>=1.0.1 <2.0.0', hasData: true }
+408 silly addNameRange versions [ 'graceful',
+408 silly addNameRange   [ '0.0.1',
+408 silly addNameRange     '0.0.2',
+408 silly addNameRange     '0.0.3',
+408 silly addNameRange     '0.0.4',
+408 silly addNameRange     '0.0.5',
+408 silly addNameRange     '0.0.6',
+408 silly addNameRange     '0.1.0',
+408 silly addNameRange     '1.0.0',
+408 silly addNameRange     '1.0.1' ] ]
+409 silly addNamed graceful@1.0.1
+410 verbose addNamed "1.0.1" is a plain semver version for graceful
+411 silly mapToRegistry name graceful
+412 silly mapToRegistry using default registry
+413 silly mapToRegistry registry https://registry.npmjs.org/
+414 silly mapToRegistry data Result {
+414 silly mapToRegistry   raw: 'graceful',
+414 silly mapToRegistry   scope: null,
+414 silly mapToRegistry   escapedName: 'graceful',
+414 silly mapToRegistry   name: 'graceful',
+414 silly mapToRegistry   rawSpec: '',
+414 silly mapToRegistry   spec: 'latest',
+414 silly mapToRegistry   type: 'tag' }
+415 silly mapToRegistry uri https://registry.npmjs.org/graceful
+416 verbose addRemoteTarball https://registry.npmjs.org/graceful/-/graceful-1.0.1.tgz not in flight; adding
+417 verbose addRemoteTarball [ 'https://registry.npmjs.org/graceful/-/graceful-1.0.1.tgz',
+417 verbose addRemoteTarball   'a7a62c8fffb3fab89b6d0d32f6e4074d32a1eeb2' ]
+418 info retry fetch attempt 1 at 17:36:21
+419 info attempt registry request try #1 at 17:36:21
+420 http fetch GET https://registry.npmjs.org/graceful/-/graceful-1.0.1.tgz
+421 http 200 https://registry.npmjs.org/egg-core
+422 verbose headers { server: 'nginx/1.10.1',
+422 verbose headers   'content-type': 'application/json',
+422 verbose headers   'last-modified': 'Tue, 07 Mar 2017 15:51:30 GMT',
+422 verbose headers   etag: 'W/"58bed702-ef2d"',
+422 verbose headers   'content-encoding': 'gzip',
+422 verbose headers   'cache-control': 'max-age=300',
+422 verbose headers   'content-length': '7374',
+422 verbose headers   'accept-ranges': 'bytes',
+422 verbose headers   date: 'Thu, 23 Mar 2017 09:36:22 GMT',
+422 verbose headers   via: '1.1 varnish',
+422 verbose headers   age: '0',
+422 verbose headers   connection: 'keep-alive',
+422 verbose headers   'x-served-by': 'cache-nrt6134-NRT',
+422 verbose headers   'x-cache': 'HIT',
+422 verbose headers   'x-cache-hits': '1',
+422 verbose headers   'x-timer': 'S1490261781.794927,VS0,VE614',
+422 verbose headers   vary: 'Accept-Encoding' }
+423 silly get cb [ 200,
+423 silly get   { server: 'nginx/1.10.1',
+423 silly get     'content-type': 'application/json',
+423 silly get     'last-modified': 'Tue, 07 Mar 2017 15:51:30 GMT',
+423 silly get     etag: 'W/"58bed702-ef2d"',
+423 silly get     'content-encoding': 'gzip',
+423 silly get     'cache-control': 'max-age=300',
+423 silly get     'content-length': '7374',
+423 silly get     'accept-ranges': 'bytes',
+423 silly get     date: 'Thu, 23 Mar 2017 09:36:22 GMT',
+423 silly get     via: '1.1 varnish',
+423 silly get     age: '0',
+423 silly get     connection: 'keep-alive',
+423 silly get     'x-served-by': 'cache-nrt6134-NRT',
+423 silly get     'x-cache': 'HIT',
+423 silly get     'x-cache-hits': '1',
+423 silly get     'x-timer': 'S1490261781.794927,VS0,VE614',
+423 silly get     vary: 'Accept-Encoding' } ]
+424 verbose get saving egg-core to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\egg-core\.cache.json
+425 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+426 silly resolveWithNewModule egg-core@3.0.0 checking installable status
+427 silly cache add args [ 'egg-core@^3.0.0', null ]
+428 verbose cache add spec egg-core@^3.0.0
+429 silly cache add parsed spec Result {
+429 silly cache add   raw: 'egg-core@^3.0.0',
+429 silly cache add   scope: null,
+429 silly cache add   escapedName: 'egg-core',
+429 silly cache add   name: 'egg-core',
+429 silly cache add   rawSpec: '^3.0.0',
+429 silly cache add   spec: '>=3.0.0 <4.0.0',
+429 silly cache add   type: 'range' }
+430 silly addNamed egg-core@>=3.0.0 <4.0.0
+431 verbose addNamed ">=3.0.0 <4.0.0" is a valid semver range for egg-core
+432 silly addNameRange { name: 'egg-core', range: '>=3.0.0 <4.0.0', hasData: false }
+433 silly mapToRegistry name egg-core
+434 silly mapToRegistry using default registry
+435 silly mapToRegistry registry https://registry.npmjs.org/
+436 silly mapToRegistry data Result {
+436 silly mapToRegistry   raw: 'egg-core',
+436 silly mapToRegistry   scope: null,
+436 silly mapToRegistry   escapedName: 'egg-core',
+436 silly mapToRegistry   name: 'egg-core',
+436 silly mapToRegistry   rawSpec: '',
+436 silly mapToRegistry   spec: 'latest',
+436 silly mapToRegistry   type: 'tag' }
+437 silly mapToRegistry uri https://registry.npmjs.org/egg-core
+438 verbose addNameRange registry:https://registry.npmjs.org/egg-core not in flight; fetching
+439 verbose get https://registry.npmjs.org/egg-core not expired, no request
+440 silly addNameRange number 2 { name: 'egg-core', range: '>=3.0.0 <4.0.0', hasData: true }
+441 silly addNameRange versions [ 'egg-core',
+441 silly addNameRange   [ '0.0.1',
+441 silly addNameRange     '0.1.0',
+441 silly addNameRange     '0.2.0',
+441 silly addNameRange     '0.2.1',
+441 silly addNameRange     '0.3.0',
+441 silly addNameRange     '0.4.0',
+441 silly addNameRange     '0.5.0',
+441 silly addNameRange     '0.6.0',
+441 silly addNameRange     '1.0.0',
+441 silly addNameRange     '1.0.1',
+441 silly addNameRange     '1.1.0',
+441 silly addNameRange     '1.2.0',
+441 silly addNameRange     '1.3.0',
+441 silly addNameRange     '1.3.1',
+441 silly addNameRange     '1.3.2',
+441 silly addNameRange     '1.3.3',
+441 silly addNameRange     '1.4.0',
+441 silly addNameRange     '1.5.0',
+441 silly addNameRange     '1.5.1',
+441 silly addNameRange     '1.6.0',
+441 silly addNameRange     '1.7.0',
+441 silly addNameRange     '1.8.0',
+441 silly addNameRange     '2.0.0',
+441 silly addNameRange     '2.0.1',
+441 silly addNameRange     '2.1.0',
+441 silly addNameRange     '2.1.1',
+441 silly addNameRange     '2.1.2',
+441 silly addNameRange     '3.0.0' ] ]
+442 silly addNamed egg-core@3.0.0
+443 verbose addNamed "3.0.0" is a plain semver version for egg-core
+444 silly mapToRegistry name egg-core
+445 silly mapToRegistry using default registry
+446 silly mapToRegistry registry https://registry.npmjs.org/
+447 silly mapToRegistry data Result {
+447 silly mapToRegistry   raw: 'egg-core',
+447 silly mapToRegistry   scope: null,
+447 silly mapToRegistry   escapedName: 'egg-core',
+447 silly mapToRegistry   name: 'egg-core',
+447 silly mapToRegistry   rawSpec: '',
+447 silly mapToRegistry   spec: 'latest',
+447 silly mapToRegistry   type: 'tag' }
+448 silly mapToRegistry uri https://registry.npmjs.org/egg-core
+449 verbose addRemoteTarball https://registry.npmjs.org/egg-core/-/egg-core-3.0.0.tgz not in flight; adding
+450 verbose addRemoteTarball [ 'https://registry.npmjs.org/egg-core/-/egg-core-3.0.0.tgz',
+450 verbose addRemoteTarball   '91e3aa368c25a876407259acb1e18b35ed245f81' ]
+451 info retry fetch attempt 1 at 17:36:21
+452 info attempt registry request try #1 at 17:36:21
+453 http fetch GET https://registry.npmjs.org/egg-core/-/egg-core-3.0.0.tgz
+454 http fetch 200 https://registry.npmjs.org/egg-core/-/egg-core-3.0.0.tgz
+455 silly fetchAndShaCheck shasum 91e3aa368c25a876407259acb1e18b35ed245f81
+456 verbose addTmpTarball C:\Users\Administrator\AppData\Local\Temp\npm-7100-3031f412\registry.npmjs.org\egg-core\-\egg-core-3.0.0.tgz not in flight; adding
+457 verbose addTmpTarball already have metadata; skipping unpack for egg-core@3.0.0
+458 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+459 silly cache afterAdd egg-core@3.0.0
+460 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\egg-core\3.0.0\package\package.json not in flight; writing
+461 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+462 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\egg-core\3.0.0\package\package.json written
+463 http 200 https://registry.npmjs.org/egg-onerror
+464 verbose headers { server: 'nginx/1.10.1',
+464 verbose headers   'content-type': 'application/json',
+464 verbose headers   'last-modified': 'Sun, 22 Jan 2017 11:43:12 GMT',
+464 verbose headers   etag: 'W/"58849ad0-4052"',
+464 verbose headers   'content-encoding': 'gzip',
+464 verbose headers   'cache-control': 'max-age=300',
+464 verbose headers   'content-length': '2960',
+464 verbose headers   'accept-ranges': 'bytes',
+464 verbose headers   date: 'Thu, 23 Mar 2017 09:36:25 GMT',
+464 verbose headers   via: '1.1 varnish',
+464 verbose headers   age: '0',
+464 verbose headers   connection: 'keep-alive',
+464 verbose headers   'x-served-by': 'cache-nrt6120-NRT',
+464 verbose headers   'x-cache': 'HIT',
+464 verbose headers   'x-cache-hits': '1',
+464 verbose headers   'x-timer': 'S1490261784.797913,VS0,VE585',
+464 verbose headers   vary: 'Accept-Encoding' }
+465 silly get cb [ 200,
+465 silly get   { server: 'nginx/1.10.1',
+465 silly get     'content-type': 'application/json',
+465 silly get     'last-modified': 'Sun, 22 Jan 2017 11:43:12 GMT',
+465 silly get     etag: 'W/"58849ad0-4052"',
+465 silly get     'content-encoding': 'gzip',
+465 silly get     'cache-control': 'max-age=300',
+465 silly get     'content-length': '2960',
+465 silly get     'accept-ranges': 'bytes',
+465 silly get     date: 'Thu, 23 Mar 2017 09:36:25 GMT',
+465 silly get     via: '1.1 varnish',
+465 silly get     age: '0',
+465 silly get     connection: 'keep-alive',
+465 silly get     'x-served-by': 'cache-nrt6120-NRT',
+465 silly get     'x-cache': 'HIT',
+465 silly get     'x-cache-hits': '1',
+465 silly get     'x-timer': 'S1490261784.797913,VS0,VE585',
+465 silly get     vary: 'Accept-Encoding' } ]
+466 verbose get saving egg-onerror to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\egg-onerror\.cache.json
+467 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+468 silly resolveWithNewModule egg-onerror@1.3.0 checking installable status
+469 silly cache add args [ 'egg-onerror@^1.3.0', null ]
+470 verbose cache add spec egg-onerror@^1.3.0
+471 silly cache add parsed spec Result {
+471 silly cache add   raw: 'egg-onerror@^1.3.0',
+471 silly cache add   scope: null,
+471 silly cache add   escapedName: 'egg-onerror',
+471 silly cache add   name: 'egg-onerror',
+471 silly cache add   rawSpec: '^1.3.0',
+471 silly cache add   spec: '>=1.3.0 <2.0.0',
+471 silly cache add   type: 'range' }
+472 silly addNamed egg-onerror@>=1.3.0 <2.0.0
+473 verbose addNamed ">=1.3.0 <2.0.0" is a valid semver range for egg-onerror
+474 silly addNameRange { name: 'egg-onerror', range: '>=1.3.0 <2.0.0', hasData: false }
+475 silly mapToRegistry name egg-onerror
+476 silly mapToRegistry using default registry
+477 silly mapToRegistry registry https://registry.npmjs.org/
+478 silly mapToRegistry data Result {
+478 silly mapToRegistry   raw: 'egg-onerror',
+478 silly mapToRegistry   scope: null,
+478 silly mapToRegistry   escapedName: 'egg-onerror',
+478 silly mapToRegistry   name: 'egg-onerror',
+478 silly mapToRegistry   rawSpec: '',
+478 silly mapToRegistry   spec: 'latest',
+478 silly mapToRegistry   type: 'tag' }
+479 silly mapToRegistry uri https://registry.npmjs.org/egg-onerror
+480 verbose addNameRange registry:https://registry.npmjs.org/egg-onerror not in flight; fetching
+481 verbose get https://registry.npmjs.org/egg-onerror not expired, no request
+482 silly addNameRange number 2 { name: 'egg-onerror', range: '>=1.3.0 <2.0.0', hasData: true }
+483 silly addNameRange versions [ 'egg-onerror',
+483 silly addNameRange   [ '0.0.1',
+483 silly addNameRange     '0.0.2',
+483 silly addNameRange     '0.0.3',
+483 silly addNameRange     '1.0.0',
+483 silly addNameRange     '1.1.0',
+483 silly addNameRange     '1.2.1',
+483 silly addNameRange     '1.2.2',
+483 silly addNameRange     '1.3.0' ] ]
+484 silly addNamed egg-onerror@1.3.0
+485 verbose addNamed "1.3.0" is a plain semver version for egg-onerror
+486 silly mapToRegistry name egg-onerror
+487 silly mapToRegistry using default registry
+488 silly mapToRegistry registry https://registry.npmjs.org/
+489 silly mapToRegistry data Result {
+489 silly mapToRegistry   raw: 'egg-onerror',
+489 silly mapToRegistry   scope: null,
+489 silly mapToRegistry   escapedName: 'egg-onerror',
+489 silly mapToRegistry   name: 'egg-onerror',
+489 silly mapToRegistry   rawSpec: '',
+489 silly mapToRegistry   spec: 'latest',
+489 silly mapToRegistry   type: 'tag' }
+490 silly mapToRegistry uri https://registry.npmjs.org/egg-onerror
+491 verbose addRemoteTarball https://registry.npmjs.org/egg-onerror/-/egg-onerror-1.3.0.tgz not in flight; adding
+492 verbose addRemoteTarball [ 'https://registry.npmjs.org/egg-onerror/-/egg-onerror-1.3.0.tgz',
+492 verbose addRemoteTarball   '90acdfb1d03ff8b246dc15dc22b89797530e1300' ]
+493 info retry fetch attempt 1 at 17:36:25
+494 info attempt registry request try #1 at 17:36:25
+495 http fetch GET https://registry.npmjs.org/egg-onerror/-/egg-onerror-1.3.0.tgz
+496 http fetch 200 https://registry.npmjs.org/egg-onerror/-/egg-onerror-1.3.0.tgz
+497 silly fetchAndShaCheck shasum 90acdfb1d03ff8b246dc15dc22b89797530e1300
+498 verbose addTmpTarball C:\Users\Administrator\AppData\Local\Temp\npm-7100-3031f412\registry.npmjs.org\egg-onerror\-\egg-onerror-1.3.0.tgz not in flight; adding
+499 verbose addTmpTarball already have metadata; skipping unpack for egg-onerror@1.3.0
+500 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+501 silly cache afterAdd egg-onerror@1.3.0
+502 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\egg-onerror\1.3.0\package\package.json not in flight; writing
+503 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+504 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\egg-onerror\1.3.0\package\package.json written
+505 http 200 https://registry.npmjs.org/accepts
+506 verbose headers { server: 'nginx/1.10.1',
+506 verbose headers   'content-type': 'application/json',
+506 verbose headers   'last-modified': 'Mon, 06 Mar 2017 07:47:45 GMT',
+506 verbose headers   etag: 'W/"58bd1421-db8f"',
+506 verbose headers   'content-encoding': 'gzip',
+506 verbose headers   'cache-control': 'max-age=300',
+506 verbose headers   'content-length': '5897',
+506 verbose headers   'accept-ranges': 'bytes',
+506 verbose headers   date: 'Thu, 23 Mar 2017 09:36:26 GMT',
+506 verbose headers   via: '1.1 varnish',
+506 verbose headers   age: '276',
+506 verbose headers   connection: 'keep-alive',
+506 verbose headers   'x-served-by': 'cache-nrt6121-NRT',
+506 verbose headers   'x-cache': 'HIT',
+506 verbose headers   'x-cache-hits': '14',
+506 verbose headers   'x-timer': 'S1490261786.665783,VS0,VE0',
+506 verbose headers   vary: 'Accept-Encoding' }
+507 silly get cb [ 200,
+507 silly get   { server: 'nginx/1.10.1',
+507 silly get     'content-type': 'application/json',
+507 silly get     'last-modified': 'Mon, 06 Mar 2017 07:47:45 GMT',
+507 silly get     etag: 'W/"58bd1421-db8f"',
+507 silly get     'content-encoding': 'gzip',
+507 silly get     'cache-control': 'max-age=300',
+507 silly get     'content-length': '5897',
+507 silly get     'accept-ranges': 'bytes',
+507 silly get     date: 'Thu, 23 Mar 2017 09:36:26 GMT',
+507 silly get     via: '1.1 varnish',
+507 silly get     age: '276',
+507 silly get     connection: 'keep-alive',
+507 silly get     'x-served-by': 'cache-nrt6121-NRT',
+507 silly get     'x-cache': 'HIT',
+507 silly get     'x-cache-hits': '14',
+507 silly get     'x-timer': 'S1490261786.665783,VS0,VE0',
+507 silly get     vary: 'Accept-Encoding' } ]
+508 verbose get saving accepts to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\accepts\.cache.json
+509 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+510 silly resolveWithNewModule accepts@1.3.3 checking installable status
+511 silly cache add args [ 'accepts@^1.3.3', null ]
+512 verbose cache add spec accepts@^1.3.3
+513 silly cache add parsed spec Result {
+513 silly cache add   raw: 'accepts@^1.3.3',
+513 silly cache add   scope: null,
+513 silly cache add   escapedName: 'accepts',
+513 silly cache add   name: 'accepts',
+513 silly cache add   rawSpec: '^1.3.3',
+513 silly cache add   spec: '>=1.3.3 <2.0.0',
+513 silly cache add   type: 'range' }
+514 silly addNamed accepts@>=1.3.3 <2.0.0
+515 verbose addNamed ">=1.3.3 <2.0.0" is a valid semver range for accepts
+516 silly addNameRange { name: 'accepts', range: '>=1.3.3 <2.0.0', hasData: false }
+517 silly mapToRegistry name accepts
+518 silly mapToRegistry using default registry
+519 silly mapToRegistry registry https://registry.npmjs.org/
+520 silly mapToRegistry data Result {
+520 silly mapToRegistry   raw: 'accepts',
+520 silly mapToRegistry   scope: null,
+520 silly mapToRegistry   escapedName: 'accepts',
+520 silly mapToRegistry   name: 'accepts',
+520 silly mapToRegistry   rawSpec: '',
+520 silly mapToRegistry   spec: 'latest',
+520 silly mapToRegistry   type: 'tag' }
+521 silly mapToRegistry uri https://registry.npmjs.org/accepts
+522 verbose addNameRange registry:https://registry.npmjs.org/accepts not in flight; fetching
+523 verbose get https://registry.npmjs.org/accepts not expired, no request
+524 silly addNameRange number 2 { name: 'accepts', range: '>=1.3.3 <2.0.0', hasData: true }
+525 silly addNameRange versions [ 'accepts',
+525 silly addNameRange   [ '1.0.0',
+525 silly addNameRange     '1.0.1',
+525 silly addNameRange     '1.0.2',
+525 silly addNameRange     '1.0.3',
+525 silly addNameRange     '1.0.4',
+525 silly addNameRange     '1.0.5',
+525 silly addNameRange     '1.0.6',
+525 silly addNameRange     '1.0.7',
+525 silly addNameRange     '1.1.0',
+525 silly addNameRange     '1.1.1',
+525 silly addNameRange     '1.1.2',
+525 silly addNameRange     '1.1.3',
+525 silly addNameRange     '1.1.4',
+525 silly addNameRange     '1.2.0',
+525 silly addNameRange     '1.2.1',
+525 silly addNameRange     '1.2.2',
+525 silly addNameRange     '1.2.3',
+525 silly addNameRange     '1.2.4',
+525 silly addNameRange     '1.2.5',
+525 silly addNameRange     '1.2.6',
+525 silly addNameRange     '1.2.7',
+525 silly addNameRange     '1.2.8',
+525 silly addNameRange     '1.2.9',
+525 silly addNameRange     '1.2.10',
+525 silly addNameRange     '1.2.11',
+525 silly addNameRange     '1.2.12',
+525 silly addNameRange     '1.2.13',
+525 silly addNameRange     '1.3.0',
+525 silly addNameRange     '1.3.1',
+525 silly addNameRange     '1.3.2',
+525 silly addNameRange     '1.3.3' ] ]
+526 silly addNamed accepts@1.3.3
+527 verbose addNamed "1.3.3" is a plain semver version for accepts
+528 silly mapToRegistry name accepts
+529 silly mapToRegistry using default registry
+530 silly mapToRegistry registry https://registry.npmjs.org/
+531 silly mapToRegistry data Result {
+531 silly mapToRegistry   raw: 'accepts',
+531 silly mapToRegistry   scope: null,
+531 silly mapToRegistry   escapedName: 'accepts',
+531 silly mapToRegistry   name: 'accepts',
+531 silly mapToRegistry   rawSpec: '',
+531 silly mapToRegistry   spec: 'latest',
+531 silly mapToRegistry   type: 'tag' }
+532 silly mapToRegistry uri https://registry.npmjs.org/accepts
+533 verbose addRemoteTarball https://registry.npmjs.org/accepts/-/accepts-1.3.3.tgz not in flight; adding
+534 verbose addRemoteTarball [ 'https://registry.npmjs.org/accepts/-/accepts-1.3.3.tgz',
+534 verbose addRemoteTarball   'c3ca7434938648c3e0d9c1e328dd68b622c284ca' ]
+535 info retry fetch attempt 1 at 17:36:26
+536 info attempt registry request try #1 at 17:36:26
+537 http fetch GET https://registry.npmjs.org/accepts/-/accepts-1.3.3.tgz
+538 http fetch 200 https://registry.npmjs.org/accepts/-/accepts-1.3.3.tgz
+539 warn retry will retry, error on last attempt: Error: EBUSY: resource busy or locked, rename 'C:\Users\Administrator\AppData\Local\Temp\npm-7100-3031f412\registry.npmjs.org\accepts\-\accepts-1.3.3.tgz.1943525801' -> 'C:\Users\Administrator\AppData\Local\Temp\npm-7100-3031f412\registry.npmjs.org\accepts\-\accepts-1.3.3.tgz'
+540 verbose stack TypeError: tarball.destroy is not a function
+540 verbose stack     at WriteStreamAtomic.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\cache\add-remote-tarball.js:97:15)
+540 verbose stack     at emitOne (events.js:101:20)
+540 verbose stack     at WriteStreamAtomic.emit (events.js:188:7)
+540 verbose stack     at WriteStreamAtomic.emit (C:\Program Files\nodejs\node_modules\npm\node_modules\fs-write-stream-atomic\index.js:60:34)
+540 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\fs-write-stream-atomic\index.js:89:19
+540 verbose stack     at FSReqWrap.oncomplete (fs.js:123:15)
+541 verbose cwd D:\Githubsourcecode
+542 error Windows_NT 6.1.7601
+543 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "egg" "--save"
+544 error node v6.10.0
+545 error npm  v3.10.10
+546 error tarball.destroy is not a function
+547 error If you need help, you may report this error at:
+547 error     <https://github.com/npm/npm/issues>
+548 verbose exit [ 1, true ]
